@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registerInfo {
+    padding-top: 1em;
+    text-align: center;
+}
+
+#leaderboardButon {
+    padding-top: 2em;
+    text-align: center;
+    color: black;
+}
+
+#indexButon {
+    padding-top: 2em;
+    text-align: center;
+    color: black;
+}

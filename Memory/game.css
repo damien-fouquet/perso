@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: black;
+}
+
+.gameTitle {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.cardsPrint {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+img{
+    /* background-color: #fff; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 5px;
+}
+
+.find{
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+
+.imginverse {
+    width: 150px;
+    height: 150px;
+}
+
+#leaderboardButon {
+    padding-top: 2em;
+    text-align: center;
+    color: black;
+}
+
+#indexButon {
+    padding-top: 2em;
+    text-align: center;
+    color: black;
+}
